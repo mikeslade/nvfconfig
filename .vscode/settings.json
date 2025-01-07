@@ -1,0 +1,30 @@
+{
+  "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+  "rust-analyzer.cargo.features": "all",
+  "rust-analyzer.check.command": "clippy",
+  "editor.formatOnSave": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#10323B",
+    "titleBar.activeBackground": "#174652",
+    "titleBar.activeForeground": "#F5FBFC"
+  },
+  "terminal.integrated.profiles.linux": {
+    "NixShell": {
+      "path": "bash",
+      "args": [
+        "-c",
+        "nix develop; exec bash"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "NixShell",
+  "shellcheck.ignorePatterns": {
+    ".direnv/*": false
+  },
+  "Lua.diagnostics.globals": [
+    "vim",
+    "luasnip",
+    "kind_icons"
+  ]
+}

@@ -1,0 +1,6 @@
+.direnv
+
+# nix results
+result
+
+*.old
