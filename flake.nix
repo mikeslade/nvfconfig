@@ -51,8 +51,14 @@
                 languages = {
                   enableLSP = true;
                   enableTreesitter = true;
+                  bash.enable = true;
+                  html.enable = true;
+                  markdown.enable = true;
                   nix.enable = true;
+                  # nu.enable = true;
                   rust.enable = true;
+                  sql.enable = true;
+                  tailwind.enable = true;
                   ts.enable = true;
                 };
 
