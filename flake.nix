@@ -62,6 +62,18 @@
                   ts.enable = true;
                 };
 
+                # lazy.plugins = {
+                #   direnv.nvim = {
+                #   # ^^^^^^^^^ this name should match the package.pname or package.name
+                #     package = direnv-nvim;
+
+                #     setupModule = "direnv";
+                #     setupOpts = {option_name = false;};
+
+                #     after = "print('direnv loaded')";
+                #   };
+                # };
+
                 autocomplete.nvim-cmp.enable = true;
                 statusline.lualine.enable = true;
                 telescope.enable = true;
