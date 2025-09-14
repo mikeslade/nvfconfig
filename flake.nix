@@ -48,8 +48,9 @@
                 # Enable custom theming options
                 theme.enable = true;
 
+                lsp.enable = true;
+
                 languages = {
-                  enableLSP = true;
                   enableTreesitter = true;
                   bash.enable = true;
                   html.enable = true;
