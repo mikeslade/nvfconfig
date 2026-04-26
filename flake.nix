@@ -49,6 +49,7 @@
                 theme.enable = true;
 
                 lsp.enable = true;
+                lsp.presets.tailwindcss-language-server.enable = true;
 
                 languages = {
                   enableTreesitter = true;
@@ -59,8 +60,7 @@
                   # nu.enable = true;
                   rust.enable = true;
                   sql.enable = true;
-                  tailwind.enable = true;
-                  ts.enable = true;
+                  typescript.enable = true;
                 };
 
                 # lazy.plugins = {
